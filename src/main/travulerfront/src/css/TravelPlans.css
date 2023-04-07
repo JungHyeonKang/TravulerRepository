@@ -1,0 +1,64 @@
+.plan-title {
+    text-align: center;
+  }
+  
+  .plan-area {
+    width: 100%;
+    overflow: auto;
+    float: left;
+  }
+  
+  .day-area {
+    border: solid 5px rgb(44, 238, 54);
+    top: 60px;
+    /*width:50%;*/
+    float: left;
+    margin-left: 30px;
+    
+    display: flex;
+    flex-direction: column; /* 수직 방향으로 정렬 */
+    justify-content: flex-start; /* 수직 중앙 정렬 */
+    align-items: center; /* 수평 중앙 정렬 */
+    height: 700px; /* 상위 요소의 높이를 지정 */
+    overflow-y: scroll; /* 세로 스크롤 표시 */
+  }
+  
+  .day-box {
+    border: 5px solid rgb(8, 225, 240);
+    margin: 15px;
+    padding: 15px;
+    width: 320px;
+    position: relative;
+  }
+
+  .day-detailViewButton{
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin: 10px;
+  }
+  
+  .day-box input {
+    font-size: 16px;
+    width: 250px;
+    height: 35px;
+  }
+  
+  .day-detail {
+    top: 60px;
+    border: 5px solid rgb(95, 12, 212);
+    display: inline-block;
+    box-sizing: border-box;
+    width: 800px;
+    padding: 10px;
+    height: 700px;
+    margin-left: 30px;
+    overflow-y: scroll; /* 세로 스크롤 표시 */
+  }
+  
+  .plan-area::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
