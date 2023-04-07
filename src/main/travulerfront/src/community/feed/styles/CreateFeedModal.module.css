@@ -1,0 +1,35 @@
+
+.contentContainer{
+    max-width: 100%;
+    max-height: 100%;
+    width:700px;
+    height:100px;
+    justify-content: center;
+}
+.textInput{
+    max-width: 100%;
+    max-height: 100%;
+    width: 500px;
+    height: 100px;
+    
+}
+.fileContainer{
+    display: flex;
+    max-width: 100%;
+    max-height: 100%;
+    width: 70%;
+    height: 80%;
+    
+}
+.imageFile{
+    max-width: 100%;
+    max-height: 100%;
+    width: 100px;
+}
+.modalBody{
+
+}
+.uploadButton{
+    width: 30px;
+}
+    

@@ -1,0 +1,12 @@
+.createFormContainer{
+    width:600px;
+    margin:0 auto;
+    text-align: center;
+}
+.feedHomeContainer{
+    border: solid 2px;
+}
+.plus{
+   
+    width: 30px;
+}

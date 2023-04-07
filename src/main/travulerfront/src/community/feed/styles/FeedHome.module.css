@@ -1,0 +1,16 @@
+.createFormContainer{
+    width:600px;
+    margin:0 auto;
+    text-align: center;
+}
+.feedHomeContainer{
+    border: solid 2px;
+}
+.divBox{
+    display: flex;
+align-items: center;
+}
+.plus{
+   
+    width: 30px;
+}

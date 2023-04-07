@@ -1,0 +1,88 @@
+body {
+  /* background-color: #e3fce0; */
+  background-color: #ffffff;
+}
+
+.MainPage {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: white;
+}
+
+.mainTitle {
+  color: white;
+  text-decoration: none;
+  font-size: 45px;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 250px;
+  height: 100%;
+  background-color: #1c7731;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+nav ul {
+  list-style: none;
+  /* display: flex; */
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  margin-left: 20px;
+  margin: 35px 5px
+}
+
+nav ul li a {
+  color: rgb(218, 218, 218);
+  text-decoration: none;
+  font-size: 24px;
+}
+
+.btn {
+  background-color: #4ecdc4;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 18px;
+  margin-right: 10px;
+}
+
+nav a:hover {
+ color: white;
+  font-weight: bold;
+}
+
+nav .active {
+  color: white;
+  font-weight: bold;
+}
+
+.content {
+  padding: 20px;
+  margin-top: 80px;
+}
+
+.fade-in {
+  animation: fadeIn 1s;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}

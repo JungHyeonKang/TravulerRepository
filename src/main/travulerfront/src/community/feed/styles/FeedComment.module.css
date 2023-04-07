@@ -1,0 +1,52 @@
+.commentBox{
+    font-size: 5px;
+    height: auto;   
+    max-width: 100%;
+    /* max-height: 100%; */
+    overflow: auto;
+    margin-bottom: 5px;
+}
+
+.profileImg{
+    width: 10px;
+    width: 25px;
+}
+.commentButton{
+    width: 20px;
+}
+.likeButton{
+    width: 30px;
+    
+}
+.likeButton2{
+    width: 30px;
+}
+.rerePlyBox{  
+    max-width: 100%;
+    max-height: 100%;
+}
+.rerePlyContainer{
+    max-width: 100%;
+    max-height: 100%;
+    float:right;
+    width: 90%;
+    height: 80%;
+    
+}
+.rerecommentButton{
+    margin: 3px;
+}
+.commentButtonBox{
+    margin: 5px;
+}
+.contentSpan{
+    margin-left: 20px;
+    font-weight: bold;
+}
+.userNameSpan{
+    font-size: small;
+    font-weight: bold;
+}
+.likeBtn{
+    width: 20px;
+}

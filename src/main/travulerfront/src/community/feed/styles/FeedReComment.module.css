@@ -1,0 +1,40 @@
+/* .commentBox{
+ 
+    height: 90px;
+    height: 90px;
+    
+    max-width: 100%;
+    max-height: 100%;
+} */
+
+.profileImg{
+    width: 10px;
+    width: 25px;
+}
+.commentButton{
+    width: 15px;
+}
+.likeButton{
+    width: 30px;
+    
+}
+.likeButton2{
+    width: 30px;
+}
+.rerePlyBox{  
+    /* border: 10%; */
+}
+/* .rerePlyContainer{
+    float:right;
+    width: 90%;
+} */
+.parentUserNameSpan{
+    color: blue;
+}
+.userNameSpan{
+   
+    font-weight: bold;
+}
+.likeBtn{
+    width: 15px;
+}
